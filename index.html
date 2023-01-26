@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Portfolio ArgProg</title>
+<meta name="description" content="Roughly 155 characters">
+<link rel="stylesheet" href="src/css/bootstrap.min.css" >
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="src/css/style.css" >
+<script src="https://kit.fontawesome.com/f81d7d72e9.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="contenedor-header">
+      <div class="fondoback">
+        <div class="logos">
+          go<img src="file:///C:/Users/Panchi/Documents/programacion/PortfolioFrontEnd/imagenes/LogosInti.png">
+          <img src="file:///C:/Users/Panchi/Documents/programacion/PortfolioFrontEnd/imagenes/APLogo-20-20.png">
+          
+         </div>
+          <div class="contenedor-botones">
+           <nav class="contenido-botones">
+             <a href="https://www.facebook.com/federico.retamozop/" class="fa fa-facebook"></a>
+             <a href="https://twitter.com/ElfedeP" class="fa fa-twitter"></a>
+             <a href="federicopr87@gmail.com" class="fa fa-google"></a>
+             <a href="https://www.instagram.com/fede.retamozop/" class="fa fa-instagram"></a>
+             <a href="#" class="fa fa-linkedin"></a>
+             <button href="#" class="btn btn-primary">Login</button>
+           </nav>         
+          </div>
+        </div>
+      <div class="foto-de-perfil">
+         <img src="file:///C:/Users/Panchi/Documents/programacion/PortfolioFrontEnd/imagenes/Foto%20perfil.jpeg">
+         <h1>Fede</h1>
+         <h3>Desarrollador full stack jr.</h3>
+         <h5>Santa Fe (Argentina)</h5>
+
+      </div>
+         
+    </header> 
+    <div class="acerca-de">
+     <h1>Acerca de mi</h1>
+     <p>toco la guitarra y prefiero quedarme en mi casa antes que ir a trabajar. Agarro todo lo que venga de arriba menos un rayo.</p>
+    </div>
+    
+    <div class="experiencia">
+       <div class="exp-lab">  
+          <h2>Experiencia</h2>
+          <div class="btn-edit" onclick="cambiar_parrafo">
+            <a href="#" class="btn-right">
+             <i class="fa fa-pen"></i>  
+            </a>
+         </div>
+       </div>
+       <div> 
+          <p id="text-experiencia">Todavia no se hacer nada, solo miro videos de youtube para aprender</p>
+        </div>
+        <div>
+          <input type="edit-experiencia" type="text" oninput="myFunction2(this.value)" style="display:none">
+        </div>
+    
+    </div>
+
+    <script>
+      function cambiar_parrafo(){
+        document.getElementById("edit-experiencia").style.display="block";
+        let texto = document.getElementById("text-experiencia").innerText;
+        alert(texto);  
+      };
+
+
+      function myFunction2(valor){
+        document.getElementById("text-experiencia").innerText.valor;
+      }
+    </script>
+
+
+    <div class="educacion"> 
+      <h1>Educación</h1>
+    </div>
+    
+    <div class="skills">
+      <h1>Hard & soft skills</h1>
+      
+    </div>
+
+    <div class="proyectos">
+      <h1>Proyectos</h1>
+    </div>
+    
+
+
+<!-- Content -->
+</body>
+</html>
